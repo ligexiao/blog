@@ -14,7 +14,7 @@ return [
     // Meta
     'meta' => [
         'keywords' => 'YB Blog,blog,pigjian,laravel,vuejs',
-        'description' => '每天进步一点点 in Yabohe Blog'
+        'description' => '离歌笑 in Yabohe Blog'
     ],
 
     // Social Share
@@ -33,8 +33,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => '每天进步一点点.',
-        'description' => 'https://yabohe.com',
+        'title'       => 'Done Is Better Than Perfect',
+        'description' => 'http://yabohe.com',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
@@ -51,13 +51,13 @@ return [
     'footer' => [
         'github' => [
             'open' => true,
-            'url'  => 'https://github.com/ligexiao',
+            'url'  => 'https://github.com',
         ],
         'twitter' => [
             'open' => true,
             'url'  => 'https://twitter.com'
         ],
-        'meta' => '© YB Blog 2017. Powered By Jiajian Chan',
+        'meta' => '© 离歌笑的博客 In 2017. Powered By Jiajian Chan',
     ],
 
     'license' => 'Powered By Jiajian Chan.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
