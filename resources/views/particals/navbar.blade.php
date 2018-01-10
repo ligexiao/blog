@@ -20,7 +20,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/') }}">{{ lang('Articles') }}</a></li>
-                <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
+                <!--<li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>-->
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -34,8 +34,10 @@
 
                 <!-- Authentication Links -->
                 @if (Auth::guest())
+                    <!--
                     <li><a href="{{ url('login') }}">{{ lang('Login') }}</a></li>
                     <li><a href="{{ url('register') }}">{{ lang('Register') }}</a></li>
+                    -->
                 @else
                     <li class="notification">
                         <a href="{{ url('user/notification') }}"><i class="ion-android-notifications">
